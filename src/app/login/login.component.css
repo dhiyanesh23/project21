@@ -1,0 +1,43 @@
+body{
+  background-color: rgb(12, 126, 219);
+}
+h1{
+  color: white;
+  margin-left: 300px;
+  font-size: 30px;
+}
+h3{
+  color: rgb(21, 143, 42);
+}
+form{
+  margin-left: 900px;
+  margin-top: -10px;
+}
+p{
+  margin-left: 1000px;
+}
+img{
+  margin-left: 70px;
+}
+.logindiv{
+  border: 1px outset black;
+  background-color: white;
+  width: 300px;
+  height:150px;
+  padding: 50px;
+  margin-left: 1px;
+  margin-top:-600px;
+
+}
+.bottomdiv{
+  background-color:rgb(12, 126, 219) ;
+  width:1350px;
+  height:20px;
+  margin-block:150px;
+}
+h4{
+  margin-left:400px;
+}
+p{
+  margin-left:1000px;
+}

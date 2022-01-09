@@ -1,0 +1,55 @@
+<html>
+  <head>
+    <title>welcome</title>
+  </head>
+  <body>
+    <h1>{{message}}</h1>
+    <hr/>
+    <form>
+      <p>Enter the marks</p>
+      <br>
+      No of cake boxes: <input [(ngModel)]="grade1" name="grade1" type = "text">
+      <br>
+      Credit1: <input [(ngModel)]="credit1" name="credit1" type = "number">
+      <br><br>
+      Grade2: <input [(ngModel)]="grade2" name="grade2" type = "text">
+      <br>
+      Credit2: <input [(ngModel)]="credit2" name="credit2" type = "number">
+      <br><br>
+      Grade3: <input [(ngModel)]="grade3" name="grade3" type = "text">
+      <br>
+      Credit3: <input [(ngModel)]="credit3" name="credtit3" type = "number">
+      <br><br>
+      Grade4: <input [(ngModel)]="grade4" name="grade4" type = "text">
+      <br>
+      Credit4: <input [(ngModel)]="credit4" name="credit4" type = "number">
+      <br><br>
+      Grade5: <input [(ngModel)]="grade5" name="grade5" type = "text">
+      <br>
+      Credit5: <input [(ngModel)]="credit5" name="credit5" type = "number">
+      <br><br>
+      Grade6: <input [(ngModel)]="grade6" name="grade6" type = "text">
+      <br>
+      Credit6: <input [(ngModel)]="credit6" name="credit6" type = "number">
+      <br><br>
+      Grade7: <input [(ngModel)]="grade7" name="grade7" type = "text">
+      <br>
+      Credit7: <input [(ngModel)]="credit7" name="credit7" type = "number">
+      <br><br>
+      Grade8: <input [(ngModel)]="grade8" name="grade8" type = "text">
+      <br>
+      Credit8: <input [(ngModel)]="credit8" name="credit8" type = "number">
+      <br><br>
+      Grade9: <input [(ngModel)]="grade9" name="grade9" type = "text">
+      <br>
+      Credit9: <input [(ngModel)]="credit9" name="credit9" type = "number">
+
+      <br><br>
+      <hr/>
+      <!--<button (click) = "gradetoPoints()">Calculate</button>
+      <button (click) = "pointsforGrade(grade)">Calculate</button>-->
+      <button (click) = "calculateGPA()">Calculate</button>
+      <p>GPA: {{gpa}}</p>
+    </form>
+  </body>
+</html>

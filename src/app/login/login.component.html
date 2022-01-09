@@ -1,0 +1,24 @@
+<body>
+  <h1>MEPCO SCHLENK ENGINEERING COLLEGE, SIVAKASI<br>
+      Autonomous,Affiliated to Anna University<br>
+      email: mepco@gmail.com number: 9876543210
+    </h1>
+  </body>
+  <img src =  "assets\mepco2.gif" width = "600" height = "300" alt = "clg">
+  <div class="bottomdiv">
+    <h4>Designed by Dhiyaneswaran N||  Mohamed Abrith M||  P Yugesh||  Karthikeswaran T V </h4>
+  </div>
+  <form>
+    <div class="logindiv">
+      <h3>Enter the  login credentials</h3>
+    Enter the User Name: <input [(ngModel)]="userId" name="userId" type = "text">
+    <br>
+    Enter the Password: <input [(ngModel)]="password" name = "password" type = "password">
+    <br>
+    <button (click) = "signIn()">Login</button>
+    </div>
+  </form>
+  <p style = "color: rgb(241, 18, 18)">{{message}}</p>
+
+
+
